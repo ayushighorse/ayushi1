@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <table id="header" Border="0" width="100%" cellpadding="0" cellspacing="0" bgcolor="#000000">
+        <tr>
+            <td>
+                <table border="0" width="85%" cellpadding="15" cellspacing="0" align="center">
+                    <!---heading start-->
+                    <tr>
+                        <td hight="180" align="center" valign="middle" colspan="2">
+                                                        <img src="data:image/png;base64,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" width="50">
+
+                                <font face="arial" color="#f3971b" size="6">
+                                   ACHIVEMENT:-
+                                </font>
+                                <hr width="70"color="#f3971b">
+                
+                        </td>
+                        
+                    </tr>
+                    <br>
+                    <table id="header" Border="0" width="100%" cellpadding="0" cellspacing="0" bgcolor="#00ffff">
+                        <tr>
+                            <td>
+                                <table border="0" width="85%" cellpadding="15" cellspacing="0" align="center">
+                                    <!---heading start-->
+                                    <tr>
+                                        <td hight="180" align="center" valign="middle" colspan="2">
+                                                <font face="arial" color="#000000" size="6">
+                                                    Class 10<sup>th and class 12<sup>th</sup> Excellent Examination Result For The Year 2018
+                                                    
+                                                </font>
+                                                <hr >
+                                                <br>
+                                                <img src="file:///F:/web%20development/result2018.html" width="1300">
+                                <hr >
+                                <font face="arial" color="#000000" size="6">
+                                    Class 10<sup>th and class 12<sup>th</sup> Excellent Examination Result For The Year 2019
+                                    
+                                </font>
+                                <hr>
+                                <img src="file:///F:/web%20development/result%2019.html">
+                                <br>
+                                <hr>
+                                <font face="arial" color="#000000" size="6">
+                                    Class 10<sup>th and class 12<sup>th</sup> Excellent Examination Result For The Year 2020
+                                    
+                                </font>
+                                <hr>
+                                <img src="file:///F:/web%20development/result2020.html">
+                                <br>
+                                <hr>
+                                <font face="arial" color="#000000" size="6">
+                                class 12<sup>th</sup> Excellent Examination Result For The Year 2021
+                                    
+                                </font>
+                                <hr>
+                                <img src="file:///F:/web%20development/result%202021.html">
+                                <br>
+                                <hr>
+                                <font face="arial" color="#000000" size="6">
+                                    Class 10<sup>th Excellent Examination Result For The Year 2021
+                                    
+                                </font>
+                                <hr>
+                                <img src="file:///F:/web%20development/result%202021%2010th%20.html">
+                                <br>
+                                        </td>
+                                        
+                                    </tr>
+                                    
+                                    <table id="header" Border="0" width="100%" cellpadding="0" cellspacing="0" bgcolor="#000000">
+                                        <tr>
+                                            <td>
+                                                <table border="0" width="85%" cellpadding="15" cellspacing="0" align="center">
+                                                    <!---heading start-->
+                                                    <tr>
+                                                        <td hight="180" align="center" valign="middle" colspan="2">
+                                                                <font face="arial" color="#f3971b" size="6">
+                                                                  CONFIRMATION:-
+                                                                </font>
+                                                                <hr width="70"color="#f3971b">
+                                                                
+                                                <FONT face="arial" ALIGN="LEFT" color="#FFFFFFF" size="3">
+<UL>
+                                                    <LI> मुसीबत में खुद को समझाये रखो,
+                                                    आत्मविश्वास को बढ़ाये रखो,
+                                                    जिंदगी के लक्ष्य को पाने के लिए
+                                                    मन मेहनत में लगाये रखो.</LI>
+                                                 <BR>  
+                                                  
+
+                                                   
+                                                    <LI> कदम थक जाएँ पर इरादे थकने मत देना,
+                                                    मंजिल की राह से खुद को भटकने मत देना।</LI>
+                                                   <BR>
+
+                                                   <LI> हर जगह नहीं चलती है रिश्वत,
+                                                    मेहनत करके बदल लो किस्मत।</LI>
+                                                   <BR>
+                                                   
+                                                
+                                                   
+                                                    <LI>  खुद की तकदीर लिखनी है,
+                                                    तो खूब पढ़ना-लिखना सीख,
+                                                    चुनौतियों से लड़ना सीख
+                                                    तब जिंदगी में मिलेगी जीत.</LI>
+                                                   <BR>
+                                                   
+                                                    <LI> परीक्षायें जीवन भर चलती रहती है,
+                                                    स्कूल की छोटी सी परीक्षा से मत डरो,
+                                                    डर लगे तो ईश्वर को याद कर लो और
+                                                    खुद के मेहनत पर पूर्ण विश्वास रखो.</LI>
+                                                   <BR>
+    <LI> जिनके लिए सारे दरवाजे बंद होते है,
+                                                    दुनिया में ऐसे लोग चंद होते है,
+                                                    वो जीतने का हुनर सीख लेते है
+                                                    जिनके हौसले बड़े बुलंद होते है.</LI>
+                                                   <BR>
+                                                   
+                                                    <LI>हर महफ़िल की शान बनेगा,
+                                                    मेरा दोस्त एक दिन महान बनेगा,
+                                                    तेरी गली-गली में होती चर्चा
+                                                    देखना एक दिन ऐसा इंसान बनेगा</LI>
+                                                    अगर मेहनत करोगे तो ऐसी तरह आपका भी नाम आ सकता है|............(*~*)
+                                                </UL>
+                                                </FONT>
+                                                        </td>
+                                                        
+                                                    </tr>                      
+
+</body>
+</html>
